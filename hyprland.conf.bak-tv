@@ -1,0 +1,15 @@
+monitor = DP-5,2560x1440@179.98,auto,1,vrr,1
+
+$terminal = kitty
+$mainMod = SUPER
+
+source = ~/.config/hypr/autostart.conf
+source = ~/.config/hypr/input.conf
+source = ~/.config/hypr/appearance.conf
+source = ~/.config/hypr/keybinds.conf
+source = ~/.config/hypr/windowrules.conf
+source = ~/.config/hypr/environment.conf
+
+misc {
+    vrr = 1
+}
